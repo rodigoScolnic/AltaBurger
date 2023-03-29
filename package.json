@@ -1,11 +1,10 @@
 {
-  "name": "burgersApp",
+  "name": "burgersapp",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node app",
-    "test": "nodemon src/app.js"
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
