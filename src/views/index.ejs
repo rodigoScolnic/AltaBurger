@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="sweetalert2.min.css">
+  <script src="https://kit.fontawesome.com/ec74e78deb.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="hero">
+    <header>
+      <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">MENU</a></li>
+        <li><img src="./img/altaBurgerLogo.png"></li>
+        <li><a href="">NOSOTROS</a></li>
+        <li><a class="dbtn" href="">DELIVERY<i class="fa-solid fa-bolt"></i></a></li>
+      </ul>
+      <div class="hero-content">
+        <h2>Arma la <span>burger</span> de tus sueños</h2>
+        <h4>con variedad de ingredientes, todos con sabor unico. <br>Hace volar tu imaginacion</h4>
+        <button onclick="press()" class="standard-btn"><span>Crea la tuya </span> <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </header>
+  </div>
+
+  <section class="ingredients-container">
+    <div class="ingredients-description">
+      <h2>Algunos Ingredientes</h2>
+      <table>
+        <tr>
+          <th>Pan</th>
+          <td>comun</td>
+          <td>semola</td>
+          <td>queso</td>
+          <td>cheddar<br>derretido</td>
+          <td>negro</td>
+        </tr>
+        <tr>
+          <th>Burgers</th>
+          <td>150g<br>carne</td>
+          <td>300g<br>carne</td>
+          <td>150g<br>pollo</td>
+          <td>150g<br>cerdo</td>
+          <td>150g<br>mixta</td>
+        </tr>
+        <tr>
+          <th>Quesos</th>
+          <td>Dambo</td>
+          <td>Cheddar<br>fundido</td>
+          <td>dambo<br>Fundido</td>
+          <td>Roqueford</td>
+        </tr>
+        <tr>
+          <th>Add-ons</th>
+          <td>Lechuga</td>
+          <td>Tomate</td>
+          <td>Cebolla<br>caramelizada</td>
+          <td>Pepino</td>
+        </tr>
+        <tr>
+          <th>Aderezos</th>
+          <td>Mostaza</td>
+          <td>Mayonesa</td>
+          <td>ketchup</td>
+          <td>Guacamole</td>
+          <td>Jalapeño<br>picante</td>
+        </tr>
+      </table>
+      <button class="standard-btn"><span>Encontra mas aca </span> <i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="ingredients-img">
+
+    </div>
+  </section>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/img/bestsellers.jpg">
+        <div class="card">
+          <h2>La mas vendida</h2>
+          <div class="card-content">
+            <h3>La Vikinga</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident debitis quae quisquam soluta sed incidunt, repellendus excepturi commodi iste similique maiores consequuntur. Accusamus obcaecati dolores quibusdam sapiente delectus necessitatibus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="/img/bigburger.jpg">
+        <div class="card">
+          <h2>La mas grande</h2>
+          <div class="card-content">
+            <h3>BigTitan</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam veritatis corrupti, est illo repellat possimus.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <img src="/img/hotburger.jpg">
+        <div class="card">
+          <h2>La mas picante</h2>
+          <div class="card-content">
+            <h3>Infernus</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit ipsa quos maiores voluptate mollitia! Ipsum mollitia, accusantium possimus recusandae officia autem.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+
+  <footer>
+    <div class="logo">
+      <img src="/img/altaBurgerLogo.png">
+    </div>
+    
+    <div class="map">
+        <h3>Mapa del sitio:</h3>
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">MENU</a></li>
+            <li><a href="">NOSOTROS</a></li>
+            <li><a class="dbtn" href="">DELIVERY<i class="fa-solid fa-bolt"></i></a></li>
+        </ul>
+    </div>
+    
+    <div class="social-media">
+        <div class="sm-title">
+            Seguinos en:
+        </div>
+        <div class="sm-logos">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+        </div>
+        
+    </div>
+  </footer>
+
+  <div class="extra-footer">
+    <p>© copyright - created by Rodrigo Scolnic - Alta Burger restaurant - 2019</p>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.26.10/dist/sweetalert2.all.min.js"></script>
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      type: "progressbar",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  function press(){
+    (async () => {
+
+    const { value: formValues } = await Swal.fire({
+      title: 'Armemos tu burger',
+      html:
+        '<select class= "swal2-input" name="bread" id="swal-input1">' +
+          '<option value="">seleccione el pan...</option>' +
+          '<option value="blanco">Blanco</option>' +
+          '<option value="negro">Negro</option>' +
+          '<option value="rojo">Rojo (remolacha)</option>' +
+          '<option value="cheddar">cubierto con cheddar</option>' +
+          '<option value="dambo">de queso</option>' +
+        '</select>' +
+        '<select class= "swal2-input" name="bread" id="swal-input2">' +
+          '<option value="">carne de...</option>' +
+          '<option value="vaca">Vaca</option>' +
+          '<option value="pollo">Pollo</option>' +
+          '<option value="cerdo">Cerdo</option>' +
+          '<option value="veggie">Legumbres</option>' +
+        '</select>',
+      focusConfirm: false,
+      preConfirm: () => {
+        return [
+          document.getElementById('swal-input1').value,
+          document.getElementById('swal-input2').value
+        ]
+      }
+    })
+
+    if (formValues) {
+      Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Your work has been saved',
+        showConfirmButton: false,
+        timer: 1500
+})
+    }
+
+  })()
+  }
+</script>
+</html>
